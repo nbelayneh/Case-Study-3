@@ -1,6 +1,6 @@
 library(shiny)
 ui <- fluidPage(
-    titlePanel("Regression Model (Dataset: Swiss)"),
+    titlePanel("Regression Model (Dataset: Diabetes Data Set)"),
     sidebarLayout(
         sidebarPanel(
             selectInput("outcome", label = h3("Outcome"),
