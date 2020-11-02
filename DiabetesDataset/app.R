@@ -14,7 +14,8 @@ ui <- fluidPage(
             fileInput("file", "Upload the File"),
             h5("Max File size to upload is 5MB"),
             radioButtons("sep", "Separator", choices = c(Comma= ',', Period= ".", Tilde = "~", minus="-")),
-            checkboxInput("header", "Header?")
+            checkboxInput("header", "Header?") 
+            
         ),
         
         # Show a plot of the generated distribution
