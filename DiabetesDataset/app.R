@@ -8,7 +8,7 @@ ui <- fluidPage(
     
     
     # Sidebar with a slider input for number of bins 
-    headerPanel(title = "Sample Submission"),
+    headerPanel(title = "Diabetes Dataset"),
     sidebarLayout(
         sidebarPanel(
             fileInput("file", "Upload the File"),
@@ -39,7 +39,7 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp (ui = ui, server = server)
-
+ 
 
 
 #Q2: Select an algorithm suitable for the above set. 
@@ -67,8 +67,8 @@ shinyApp (ui = ui, server = server)
 # target data category is the outcome column that is assigned two values, 0 or 1. 0 indicates patient is non-diabteic 
 # 1 indicates patient is diabetic. 
 
- 
 
 
 
 
+    
