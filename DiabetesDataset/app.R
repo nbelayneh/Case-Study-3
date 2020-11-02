@@ -1,4 +1,6 @@
-
+#Q1 Please select any data set from below the links or any other suitable dataset
+# https://www.kaggle.com/mathchi/diabetes-data-set/notebooks
+ 
 library(shiny) 
 
 # Define UI for application that draws a histogram
@@ -36,7 +38,9 @@ server <- function(input, output) {
 } 
 
 # Run the application 
-shinyApp(ui = ui, server = server)
+shinyApp (ui = ui, server = server)
+
+
 
 #Q2: Select an algorithm suitable for the above set. 
 # I chose a Diabetes Data Set : https://www.kaggle.com/mathchi/diabetes-data-set/notebooks. 
@@ -56,4 +60,15 @@ shinyApp(ui = ui, server = server)
 # between variables. Once a known correlation is observed a regression analysis can then be used to build the 
 # predictive model.  
 
-#Q3: 
+#Q3: Explain the mathematical / statistical details of the algorithm 
+# total number of rows and columns
+# Data set comprises of 768 observations and 9 characteristics.
+# Out of which one is dependent variable and rest 8 are independent variable
+# target data category is the outcome column that is assigned two values, 0 or 1. 0 indicates patient is non-diabteic 
+# 1 indicates patient is diabetic. 
+
+ 
+
+
+
+
