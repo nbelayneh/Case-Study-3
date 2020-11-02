@@ -1,7 +1,13 @@
 #Q1 Please select any data set from below the links or any other suitable dataset
 # https://www.kaggle.com/mathchi/diabetes-data-set/notebooks
+
+library(shiny)
+library(ggplot2)
+library(rsconnect)
+library(here)
+
  
-library(shiny) 
+#Diabetes =  read.csv(here::here("docs"), "file:///Users/najatbelayneh/Desktop/diabetes.csv")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -40,6 +46,7 @@ server <- function(input, output) {
 
 # Run the application 
 shinyApp (ui = ui, server = server)
+
  
 
 
