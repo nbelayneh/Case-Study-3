@@ -75,6 +75,7 @@ shinyApp (ui = ui, server = server)
 # target data category is the outcome column that is assigned two values, 0 or 1. 0 indicates patient is non-diabteic 
 # 1 indicates patient is diabetic. 
 
+#We can create a model using algorithms from linear model to test the different variables.  
 
 
 
